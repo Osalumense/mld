@@ -6,7 +6,7 @@ import heroImg from '../images/web-dev.svg';
 const Hero = () => {
     return (
         <>
-            <div className="hero">
+            <div className="hero" id='hero'>
                 <div>
                     <NavBar />
                 </div>

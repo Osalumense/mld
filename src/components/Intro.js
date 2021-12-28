@@ -5,7 +5,7 @@ import img from '../images/Web-developer.svg';
 const Intro = () => {
     return (
         <>
-                <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6">
+                <div className="m-auto max-w-6xl p-2 md:p-12 h-5/6" id='about'>
 
                     <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left">
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
