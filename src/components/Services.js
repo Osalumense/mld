@@ -17,7 +17,7 @@ const Services = () => {
                         <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We are deeply committed to the growth and success of our clients.</h2>
                     </div>
 
-                    <div className="px-12" data-aos="zoom-out" data-aos-delay="600">
+                    <div className="px-12" data-aos="fade-down" data-aos-delay="600">
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
                             
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3">

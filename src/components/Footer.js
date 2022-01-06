@@ -3,52 +3,94 @@ import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
-        <div className="w-full h-auto flex items-center justify-center  bg-gray-500 text-white">
-                <div className="mx-5 w-full text-center lg:text-left py-16 px-12 flex flex-col">                    
-                    <div className="flex flex-col lg:flex-row lg:justify-between">
-                        <div className="mb-4">
-                            <p className='text-2xl md:text-4xl font-bold mb-4'>Are you ready to scale your business?</p>
-                            <p className="text-lg md:text-2xl">Get in touch and let us build something amazing <span className='font-black'>together!</span></p>
+        <>
+            <footer className="bg-gray-500 pt-10">
+                <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-center">
+                    <div className="w-full sm:w-4/12">
+                        <h4 className='text-4xl mx-auto font-black text-gray-200 mb-4 uppercase'>mld</h4>
+                        <h5 className='text-md font-medium text-gray-300'>Molad e Konsult</h5>
+                        <p className='text-md font-medium text-gray-300'>Ilo Awela,</p>
+                        <p className='text-md font-medium text-gray-300'>Ota,</p>
+                        <p className='text-md font-medium text-gray-300'>Ogun State.</p>
+                    </div>
+
+                    <div className="w-1/2 sm:w-3/12 md:w-3/12">
+                        
+                        <div className="text-lg font-bold uppercase text-gray-300 mb-6">
+                            Links
+                        </div>
+
+                        
+                        <HashLink to="/#about" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            About
+                        </HashLink>
+                        <HashLink to="/#services" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            Services
+                        </HashLink>
+                        <Link to="/contact" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            Contact
+                        </Link>
+                    </div>
+
+                    
+                    <div className="w-1/2 sm:w-3/12 md:w-3/12">
+                        
+                        <div className="text-lg font-bold uppercase text-gray-300 mb-6">
+                            Services
+                        </div>
+
+                        <HashLink to="/#services" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            Web Development
+                        </HashLink>
+                        <HashLink to="/#services" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            Mobile App Development
+                        </HashLink>
+                        <HashLink to="/#services" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            Domain and Hosting Services
+                        </HashLink>
+                        <HashLink to="/#services" className="my-3 block text-gray-300 hover:text-blue-900 text-md font-medium duration-700">
+                            General IT Consultations
+                        </HashLink>
+                    </div>
+
+                    <div className="w-full sm:w-2/12 md:w-2/12">
+
+                        <div className="text-lg font-bold uppercase text-gray-300 mb-6">
+                            Social Media Links.
+                        </div>
+
+                        <div className="text-xs uppercase text-gray-400 font-medium mb-6">
+                            Follow us on social media.
                         </div>
                         
-                        <div className="w-full lg:w-72 pt-6 lg:mx-12">
-                            <Link to="/contact" className="bg-transparent border hover:bg-blue-900 hover:border-blue-800 text-white justify-center text-center rounded-lg px-10 py-3 flex items-center">Contact US</Link>
+                        <div className="md:flex-auto md:flex-row flex-row flex mx-auto">
+                            <Link to="#" className="w-6 mx-1 text-gray-400 hover:text-blue-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
+                            </Link>
+                            <Link to="#" className="w-6 mx-1 text-gray-400 hover:text-blue-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
+                            </Link>
+                            <Link to="#" className="w-6 mx-1 text-gray-400 hover:text-blue-900">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current'><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg>
+                            </Link>
                         </div>
-                    </div>
-                    <div className="flex flex-col">
-                        <div className="flex mt-24 mb-12 flex-row justify-between">
-                            <div className="">
-                                <h3 className='text-white font-black text-4xl'>mld</h3>    
-                            </div>
-                            <HashLink to="/#about" className="hidden md:block cursor-pointer text-gray-600 hover:text-blue-900 uppercase">About</HashLink>
-                            <HashLink to="/#services" className="hidden md:block cursor-pointer text-gray-600 hover:text-blue-900 uppercase">Services</HashLink>
-                            <Link to="/contact" className="hidden md:block cursor-pointer text-gray-600 hover:text-blue-900 uppercase">Contact</Link>
-                            <div className="flex flex-row space-x-8 items-center justify-between">
-                                <Link to="/">
-                                    <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z" fill="white"/>
-                                    </svg>                            
-                                </Link>
-                                <Link to="/">
-                                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5.99536 2.91345C5.17815 2.91345 4.39441 3.23809 3.81655 3.81594C3.2387 4.3938 2.91406 5.17754 2.91406 5.99475C2.91406 6.81196 3.2387 7.5957 3.81655 8.17356C4.39441 8.75141 5.17815 9.07605 5.99536 9.07605C6.81257 9.07605 7.59631 8.75141 8.17417 8.17356C8.75202 7.5957 9.07666 6.81196 9.07666 5.99475C9.07666 5.17754 8.75202 4.3938 8.17417 3.81594C7.59631 3.23809 6.81257 2.91345 5.99536 2.91345ZM5.99536 7.99586C5.46446 7.99586 4.9553 7.78496 4.57989 7.40955C4.20448 7.03415 3.99358 6.52499 3.99358 5.99408C3.99358 5.46318 4.20448 4.95402 4.57989 4.57861C4.9553 4.20321 5.46446 3.99231 5.99536 3.99231C6.52626 3.99231 7.03542 4.20321 7.41083 4.57861C7.78624 4.95402 7.99714 5.46318 7.99714 5.99408C7.99714 6.52499 7.78624 7.03415 7.41083 7.40955C7.03542 7.78496 6.52626 7.99586 5.99536 7.99586Z" fill="white"/>
-                                        <path d="M9.19863 3.51848C9.59537 3.51848 9.91698 3.19687 9.91698 2.80013C9.91698 2.4034 9.59537 2.08179 9.19863 2.08179C8.8019 2.08179 8.48029 2.4034 8.48029 2.80013C8.48029 3.19687 8.8019 3.51848 9.19863 3.51848Z" fill="white"/>
-                                        <path d="M11.6821 2.06975C11.5279 1.67138 11.2921 1.30961 10.99 1.00759C10.6879 0.705576 10.326 0.469972 9.92759 0.31586C9.46135 0.140842 8.9688 0.0462069 8.4709 0.0359839C7.82919 0.00799638 7.62594 0 5.99867 0C4.37139 0 4.16282 -6.70254e-08 3.52643 0.0359839C3.02891 0.0456842 2.53671 0.140339 2.07108 0.31586C1.67255 0.469792 1.31059 0.705333 1.00844 1.00737C0.706289 1.30941 0.47061 1.67127 0.316526 2.06975C0.141474 2.53595 0.0470554 3.02855 0.0373167 3.52643C0.00866281 4.16748 0 4.37072 0 5.99867C0 7.62594 -4.96485e-09 7.83319 0.0373167 8.4709C0.0473123 8.96935 0.14127 9.46113 0.316526 9.92825C0.471042 10.3266 0.70695 10.6883 1.00918 10.9903C1.3114 11.2923 1.6733 11.5279 2.07175 11.6821C2.5365 11.8642 3.0289 11.9656 3.52777 11.982C4.16948 12.01 4.37272 12.0187 6 12.0187C7.62728 12.0187 7.83585 12.0187 8.47223 11.982C8.97008 11.9719 9.46262 11.8775 9.92892 11.7028C10.3272 11.5483 10.689 11.3125 10.9911 11.0104C11.2932 10.7083 11.529 10.3466 11.6835 9.94825C11.8587 9.48179 11.9527 8.99 11.9627 8.49156C11.9913 7.85051 12 7.64727 12 6.01932C12 4.39138 12 4.18481 11.9627 3.54709C11.9549 3.04216 11.86 2.54237 11.6821 2.06975ZM10.8705 8.42159C10.8662 8.80562 10.7961 9.18608 10.6633 9.54642C10.5632 9.80555 10.41 10.0409 10.2135 10.2372C10.017 10.4336 9.78162 10.5867 9.52243 10.6866C9.16608 10.8188 8.78967 10.8889 8.4096 10.8938C7.77654 10.9231 7.59796 10.9305 5.97468 10.9305C4.35007 10.9305 4.18414 10.9305 3.53909 10.8938C3.15921 10.8892 2.78298 10.8191 2.42692 10.6866C2.16683 10.5873 1.93048 10.4345 1.73316 10.2381C1.53584 10.0417 1.38194 9.80605 1.28143 9.54642C1.15045 9.18995 1.08039 8.81398 1.07419 8.43425C1.04554 7.8012 1.03887 7.62261 1.03887 5.99933C1.03887 4.37539 1.03887 4.20946 1.07419 3.56375C1.0785 3.17993 1.14859 2.7997 1.28143 2.43958C1.48467 1.91382 1.90116 1.5 2.42692 1.29876C2.78316 1.16691 3.15928 1.09682 3.53909 1.09151C4.17281 1.06286 4.35073 1.05486 5.97468 1.05486C7.59862 1.05486 7.76522 1.05486 8.4096 1.09151C8.7897 1.09609 9.16617 1.1662 9.52243 1.29876C9.7816 1.39889 10.017 1.55211 10.2134 1.74858C10.4099 1.94504 10.5631 2.18041 10.6633 2.43958C10.7942 2.79606 10.8643 3.17203 10.8705 3.55175C10.8992 4.18547 10.9065 4.36339 10.9065 5.98734C10.9065 7.61062 10.9065 7.78521 10.8778 8.42226H10.8705V8.42159Z" fill="white"/>
-                                    </svg>    
-                                </Link>
-                                <Link to="https://www.youtube.com/channel/UCjtCbnkIaiCJgj13sEZ9iqw">
-                                    <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12.7355 1.415C12.6616 1.14357 12.517 0.896024 12.3162 0.697014C12.1154 0.498004 11.8654 0.354468 11.5911 0.280692C10.5739 0.00450089 6.5045 4.87928e-06 6.5045 4.87928e-06C6.5045 4.87928e-06 2.43578 -0.00449139 1.41795 0.259496C1.14379 0.336667 0.894302 0.482233 0.693428 0.68222C0.492554 0.882207 0.347041 1.1299 0.270859 1.40152C0.00259923 2.40737 9.51671e-07 4.49358 9.51671e-07 4.49358C9.51671e-07 4.49358 -0.0025972 6.59006 0.263714 7.58564C0.413109 8.13609 0.851549 8.57094 1.40885 8.71931C2.43643 8.9955 6.49476 9 6.49476 9C6.49476 9 10.5641 9.00449 11.5813 8.74115C11.8557 8.6675 12.106 8.52429 12.3073 8.32569C12.5086 8.12709 12.6539 7.87996 12.729 7.60876C12.998 6.60355 12.9999 4.51798 12.9999 4.51798C12.9999 4.51798 13.0129 2.42086 12.7355 1.415ZM5.20282 6.42628L5.20607 2.57244L8.58823 4.50257L5.20282 6.42628Z" fill="white"/>
-                                    </svg>                            
-                                </Link>
-                            </div>
-                        </div>
-                        <hr className="border-gray-600"/>
-                        <p className="w-full text-center my-12 text-gray-600">Copyright © 2021 molad e Konsult</p>
+                                                
                     </div>
                 </div>
-            </div>
+
+                <div className="pt-8">
+                    <div className="flex justify-center pb-5 px-3 m-auto pt-5 
+                        border-t border-gray-200 text-gray-400 text-sm 
+                        flex-col md:flex-row max-w-6xl">
+                        <div className="mt-2 mx-auto">
+                            © Copyright {year}. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </>
     )
 }
 export default Footer;

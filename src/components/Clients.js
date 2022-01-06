@@ -20,7 +20,7 @@ const Clients = () => {
                         <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">Some of our clients.</h2>
                     </div>
 
-                <div className="p-16" data-aos="zoom-out-down" data-aos-delay="600">
+                <div className="p-16" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
                             <img src={kws} alt="client" />                            
