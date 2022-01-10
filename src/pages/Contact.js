@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
+import {useDocTitle} from '../components/CustomHook';
 
 const Contact = () => {
+    useDocTitle('MLD | Molad e Konsult - Send us a message')
     return (
         <>
             <div>

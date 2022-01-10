@@ -9,26 +9,27 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-
-
-
+import {useDocTitle} from './components/CustomHook';
 function App() {
-
   useEffect(() => {
     const aos_init = () => {
       AOS.init({
         once: true,
-        // disable: 'phone',
         duration: 1000,
         easing: 'ease-out-cubic',
       });
-    // AOS.refresh();
     }
 
     window.addEventListener('load', () => {
       aos_init();
     });
   }, []);
+
+  // useEffect(() => {
+  //   document.title = "";
+  // }, []);
+
+  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
 
   return (
     <>

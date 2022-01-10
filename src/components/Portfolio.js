@@ -13,7 +13,7 @@ const Portfolio = () => {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">                            
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
+                                <h4 className="font-semibold my-4 text-2xl text-center">Business Management System for Protergia Energy</h4>
                                 <p className="text-md font-medium">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
@@ -22,7 +22,7 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
+                                <h4 className="font-semibold my-4 text-2xl text-center">School Management Software for KWS</h4>
                                 <p className="text-md font-medium">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
@@ -31,7 +31,7 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
+                                <h4 className="font-semibold my-4 text-2xl text-center">Hotel Management System</h4>
                                 <p className="text-md font-medium">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
@@ -40,7 +40,7 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
+                                <h2 className="font-semibold my-4 text-2xl text-center ">Website and School Management Software for GEPS</h2>
                                 <p className="text-md font-medium">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
