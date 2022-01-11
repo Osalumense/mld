@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
 
             {/* 1st block */}
-            <div className="sm:col-span-12 lg:col-span-3">
+            <div className="col-span-12 lg:col-span-3">
                 <div className="box-border border-4 border-b-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg">
                     <h3 className="font-bold text-4xl mb-4">MLD</h3>
                     <div className='text-md font-medium text-gray-600'>
@@ -111,7 +111,7 @@ const Footer = () => {
             </div>
 
             {/* 2nd block */}
-            <div className="sm:col-span-6 md:col-span-6 lg:col-span-3 lg:ml-7">
+            <div className="col-span-6 md:col-span-6 lg:col-span-3 lg:ml-7">
                 <h6 className="text-[#013289] font-medium mb-2">LINKS</h6>
                 <ul className="text-sm">
                 <li className="mb-2">
@@ -127,7 +127,7 @@ const Footer = () => {
             </div>
 
             {/* 3rd block */}
-            <div className="sm:col-span-6 md:col-span-6 lg:col-span-3">
+            <div className="col-span-6 md:col-span-6 lg:col-span-3">
                 <h6 className="text-[#013289] font-medium mb-2">OUR SERVICES</h6>
                 <ul className="text-sm">
                 <li className="mb-2">
@@ -146,7 +146,7 @@ const Footer = () => {
             </div>
 
             {/* 4th block */}
-            <div className="sm:col-span-6 md:col-span-6 text-center mx-auto lg:col-span-3 font-bold uppercase text-gray-600">
+            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-gray-200">
                 <div className="text-xl mb-6">
                     Social Media Links.
                 </div>
