@@ -146,7 +146,7 @@ const Footer = () => {
             </div>
 
             {/* 4th block */}
-            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-gray-200">
+            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-gray-100">
                 <div className="text-xl mb-6">
                     Social Media Links.
                 </div>

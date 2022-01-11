@@ -8,7 +8,7 @@ const NavBar = () => {
     const [isOpen, setisOpen] = React.useState(false);
     function handleClick() {
         setisOpen(!isOpen);
-      }
+    }
 
     // detect whether user has scrolled the page down by 10px 
     useEffect(() => {
