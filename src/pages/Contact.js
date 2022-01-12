@@ -3,6 +3,7 @@ import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
 import {useDocTitle} from '../components/CustomHook';
 import emailjs from 'emailjs-com';
+import Notiflix from 'notiflix';
 
 const Contact = () => {
     useDocTitle('MLD | Molad e Konsult - Send us a message')
@@ -11,8 +12,18 @@ const Contact = () => {
         emailjs.sendForm('service_7uy4ojg', 'template_et9wvdg', e.target, 'user_uE0bSPGbhRTmAF3I2fd3s')
           .then((result) => {
               console.log(result.text);
+              Notiflix.Report.success(
+                'Success',
+                '"Thanks for sending a message, we\'ll be in touch soon."',
+                'Okay',
+                );
           }, (error) => {
               console.log(error.text);
+              Notiflix.Report.failure(
+                'An error occured',
+                'Please try sending the message again.',
+                'Okay',
+                );
           });
     }
     return (
