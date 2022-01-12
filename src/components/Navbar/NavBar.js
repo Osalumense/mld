@@ -41,7 +41,7 @@ const NavBar = () => {
                         <NavLinks />
                     </div>
 
-                    <div className={`fixed transition-transform duration-300 ease-in-out  flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white rounded-lg block lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
+                    <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white rounded-lg block lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
                         <div className='flex flex-col space-y-6'>
                             <NavLinks />
                         </div>                                                
