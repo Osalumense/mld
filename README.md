@@ -4,7 +4,7 @@
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/43953425/149298293-8544b488-8df4-499f-ba99-f873162c3bac.png)
+![mld edit](https://user-images.githubusercontent.com/43953425/149300286-e1f3104f-99f9-49d6-83fe-425e2c7b3108.png)
 
 The Live demo is available [Here](https://mld-prototype.netlify.app)
 
