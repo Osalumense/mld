@@ -31,12 +31,12 @@ const Contact = () => {
             <div>
                 <NavBar />
             </div>
-            <div className="flex justify-center items-center mt-8 w-full bg-white">
-                <div className="container mx-auto my-4 px-4 lg:px-20" data-aos="zoom-in">
+            <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24 bg-gray-200">
+                <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="zoom-in">
 
                 <form onSubmit={sendEmail}>
 
-                    <div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+                    <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                         <div className="flex">
                             <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">Send us a message</h1>
                         </div>
