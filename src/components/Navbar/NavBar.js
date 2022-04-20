@@ -37,7 +37,7 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 lg:inline-block'>
+                    <div className='hidden space-x-6 lg:inline-block p-5'>
                         <NavLinks />
                     </div>
 
