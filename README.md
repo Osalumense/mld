@@ -22,4 +22,4 @@ To use this template:
 3. run `npm start` to view the website locally.
 Feel free to edit and make changes. 
 
-You can also Fork the repo and clone to your local machine, make changes and enjoy.
+You can also Fork the repo and clone to your local machine, make desired changes and enjoy.
