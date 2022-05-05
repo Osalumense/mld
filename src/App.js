@@ -25,10 +25,6 @@ function App() {
     });
   }, []);
 
-  // useEffect(() => {
-  //   document.title = "";
-  // }, []);
-
   useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
 
   return (
