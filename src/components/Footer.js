@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
 
                     {/* 3rd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-2 mx-auto">
+                    <div className="col-span-6 md:col-span-6 lg:col-span-3 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
@@ -61,7 +61,7 @@ const Footer = () => {
                     </div>
 
                     {/* 4th block */}
-                    <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
+                    <div className="col-span-12 text-center mx-auto lg:col-span-2 font-bold uppercase text-blue-900">
                         <div className="text-xl mb-6">
                             Social Media Links.
                         </div>
