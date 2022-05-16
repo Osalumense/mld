@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-12 border-t border-gray-200 lg:ml-11">
 
                     {/* 1st block */}
-                    <div className="col-span-12 lg:col-span-5">
+                    <div className="col-span-12 lg:col-span-4">
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                             <h3 className="font-bold text-4xl mb-4">MLD</h3>
                             <div className='text-md font-medium text-gray-600'>
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
 
                     {/* 4th block */}
-                    <div className="col-span-12 text-center mx-auto lg:col-span-2 font-bold uppercase text-blue-900">
+                    <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
                         <div className="text-xl mb-6">
                             Social Media Links.
                         </div>
