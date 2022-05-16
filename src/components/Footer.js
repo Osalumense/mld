@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
-    // const year = new Date().getFullYear();
     return (
         <>
             <footer>
