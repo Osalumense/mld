@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
 
                     {/* 2nd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-2 ml-7 mx-auto">
+                    <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md">
                         <li className="mb-2">
@@ -41,7 +41,7 @@ const Footer = () => {
                     </div>
 
                     {/* 3rd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-3 mx-auto">
+                    <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
