@@ -5,7 +5,8 @@ import protergia from '../images/clients/protergia.png';
 
 const clientImage = {
     height: '8rem',
-    width: 'auto'
+    width: 'auto',
+    mixBlendMode: 'colorBurn'
 }
 
 const Clients = () => {

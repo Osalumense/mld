@@ -26,7 +26,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
                                     </p>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
                                     </p>
                                 </div>
                             </div>                    
@@ -74,7 +74,9 @@ const Services = () => {
                             <h3 className="text-3xl  text-blue-900 
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>With over 10 years experience in software analysis and design, we take a look at your business processes, analyze and then design simple and high quality digital solutions tailored to optimize business processes.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>
+                                    With over 10 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
+                                </p>
                             </div>
                         </div>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
