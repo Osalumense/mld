@@ -7,9 +7,14 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+// All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import DemoProduct from './pages/DemoProduct';
+
 import {useDocTitle} from './components/CustomHook';
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -30,10 +35,13 @@ function App() {
   return (
     <>
       <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/get-demo" element={<DemoProduct />} /> 
+          </Routes>
+        </ScrollToTop>
       </Router>
     </>
   );
