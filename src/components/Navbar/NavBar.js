@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 
 
 const NavBar = () => {
-    const [top, setTop] = useState(true);
+    const [top, setTop] = useState(!window.scrollY);
     const [isOpen, setisOpen] = React.useState(false);
     function handleClick() {
         setisOpen(!isOpen);
