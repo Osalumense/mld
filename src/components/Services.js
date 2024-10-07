@@ -1,7 +1,7 @@
 import React from 'react';
-import img from '../images/web.svg'; 
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
+import img from '../images/roof-install.svg'
+import img2 from '../images/roof-repair.svg';
+import img3 from '../images/gutter-install.svg';
 import img4 from '../images/consultation.svg';
 
 const Services = () => {
@@ -24,9 +24,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Roof Installation</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                        We specialize in providing high-quality roof installation services for residential and commercial properties, ensuring durability and longevity.
                                     </p>
                                 </div>
                             </div>
@@ -34,9 +34,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Roof Repair</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                        Our team of experts provides reliable roof repair services to fix leaks, damages, and other issues, ensuring your roof remains in top condition.
                                     </p>
                                 </div>
                             </div>
@@ -44,9 +44,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Gutter Installation</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
+                                        We offer professional gutter installation services to protect your property from water damage and ensure proper drainage.
                                     </p>
                                 </div>
                             </div>
@@ -54,9 +54,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">General Roofing Consultations</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                        Our roofing consultation services provide expert guidance and support to help you make informed decisions about your roofing needs.
                                     </p>
                                 </div>
                             </div>                    
@@ -75,7 +75,7 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    With over 10 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
+                                    With over 10 years of experience in the roofing industry, we provide customized solutions to help you improve your property's protection, reduce costs, and increase efficiency.
                                 </p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">We <span className='font-black'>Collaborate</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>We can collaborate with your existing tech team to scale existing software applications or design customized software applications that suits your everyday need and simplifies various processes.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>We collaborate with your existing team to scale existing roofing solutions or design customized roofing solutions that suit your needs and simplify various processes.</p>
                             </div>
                         </div>
                     </div>
