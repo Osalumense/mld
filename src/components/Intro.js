@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../images/Web-developer.svg';
+import img from '../images/Web-developer.jpeg';
 import { Link } from 'react-router-dom';
 
 const Intro = () => {

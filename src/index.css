@@ -10,12 +10,10 @@ body {
 }
 
 .hero {
-  background: url(./images/hero-bg.svg) top center no-repeat;
   background-size: cover;
 }
 
 .footer {
-  background: url(./images/footer.svg) top center no-repeat;
   background-size: cover;
 }
 
@@ -27,5 +25,6 @@ body {
 
 
 .hero{
-  background: linear-gradient(rgb(230, 76, 76),rgb(193, 19, 19))
+  background: linear-gradient(rgb(#000080
+  ),rgb(193, 19, 19))
 }
