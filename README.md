@@ -1,4 +1,5 @@
 # React JS Startup and small business website template
+https://buymeacoffee.com/akugbeStephen                
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
