@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("Supine: Where Less is More.");
 
   return (
     <>
@@ -38,7 +38,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<DemoProduct />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
           </Routes>
         </ScrollToTop>
